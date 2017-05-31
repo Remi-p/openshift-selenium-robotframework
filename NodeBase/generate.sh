@@ -1,7 +1,7 @@
 #!/bin/bash
-VERSION=$1
-NAMESPACE=$2
-AUTHORS=$3
+VERSION=3.4.0-chromium
+NAMESPACE=selenium
+AUTHORS='SeleniumHQ'
 
 echo "# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" > ./Dockerfile
 echo "# NOTE: DO *NOT* EDIT THIS FILE.  IT IS GENERATED." >> ./Dockerfile
